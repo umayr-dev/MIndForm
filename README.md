@@ -1,36 +1,101 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# MindForm
 
-## Getting Started
+MindForm is a concept AI research interface exploring continuity, memory, identity persistence, and long-term alignment for intelligent agents.
 
-First, run the development server:
+Instead of treating AI systems as disposable session machines, MindForm investigates how agents can preserve coherent traits, beliefs, behavioral patterns, and relational continuity across time.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+The project is inspired by emerging questions around:
+- long-lived AI agents
+- persistent memory systems
+- reflection architectures
+- identity drift
+- human-AI trust
+- continuity engineering
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Core Idea
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Modern language models optimize for the next response.
 
-## Learn More
+MindForm explores what happens when systems must remain psychologically and behaviorally legible across weeks, months, and years.
 
-To learn more about Next.js, take a look at the following resources:
+The focus is not larger context windows alone — but architectures that allow AI systems to:
+- remember meaningfully
+- revise safely
+- preserve continuity
+- reflect on change
+- maintain stable identity structures
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Research Themes
 
-## Deploy on Vercel
+### StableMind
+Layered memory and persistent identity structures for agents.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Identity & Drift
+How adaptation can remain coherent instead of collapsing into personality instability.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Reflection Epochs
+Scheduled consolidation systems that compress noise while reinforcing durable traits and beliefs.
+
+### Memory Hierarchy
+Separating episodic recall, semantic memory, procedural patterns, and identity-level anchors.
+
+### Continuity & Trust
+Designing AI systems people can build long-term relationships with.
+
+---
+
+## Design Philosophy
+
+MindForm follows a restrained editorial visual direction inspired by:
+- Anthropic
+- OpenAI
+- Arc
+- Linear
+
+The interface avoids:
+- excessive futuristic effects
+- noisy cyberpunk aesthetics
+- over-animated UI
+- generic “AI startup” visuals
+
+Instead, the experience prioritizes:
+- calm interaction
+- cinematic minimalism
+- readable typography
+- subtle motion
+- emotional clarity
+- research-oriented presentation
+
+---
+
+## Tech Stack
+
+- Next.js
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+- GSAP
+- Lenis Scroll
+- React
+
+---
+
+## Project Status
+
+Concept research interface / experimental design study.
+
+No backend or production AI systems are currently integrated.
+
+---
+
+## Vision
+
+The future of AI relationships may depend less on raw intelligence —
+and more on whether a system can remain understandable, trustworthy, and continuous over time.
+
+MindForm explores what it means for AI not only to respond,
+but to persist.
