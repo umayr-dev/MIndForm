@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Syne } from "next/font/google";
+import { Geist, Geist_Mono, Newsreader } from "next/font/google";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -12,16 +12,16 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const syne = Syne({
-  variable: "--font-syne",
+const editorial = Newsreader({
+  variable: "--font-editorial",
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "800"],
+  weight: ["400", "500", "600", "700"],
 });
 
 export const metadata: Metadata = {
-  title: "MindForm — Persistent identity for intelligent agents",
+  title: "MindForm — AI identity & continuity research",
   description:
-    "MindForm builds persistent personality and memory systems for AI agents—reducing drift through beliefs, reflection, and layered recall.",
+    "A research lab for persistent memory, reflection, and identity in long-horizon agents—built for human–AI trust that deepens over time.",
   keywords: [
     "AI identity",
     "persistent memory",
@@ -40,7 +40,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`dark relative ${geistSans.variable} ${geistMono.variable} ${syne.variable} h-full scroll-smooth antialiased`}
+      className={`${geistSans.variable} ${geistMono.variable} ${editorial.variable} dark h-full scroll-smooth antialiased`}
     >
       <body className="relative min-h-full flex flex-col bg-[#030308] text-zinc-100">
         {children}
