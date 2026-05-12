@@ -64,7 +64,7 @@ export function SiteFooter() {
               people live beside. Engineering continuity, not only larger context windows.
             </p>
             <div className="mt-8 flex flex-wrap gap-x-5 gap-y-2 text-[12px] text-zinc-600">
-              <span className="font-mono uppercase tracking-wider">San Francisco · Remote</span>
+              {/* <span className="font-mono uppercase tracking-wider">San Francisco · Remote</span> */}
             </div>
           </div>
 

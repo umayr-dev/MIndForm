@@ -1,5 +1,5 @@
 import { ArchitectureSection } from "@/components/mindform/architecture-section";
-import { CtaSection } from "@/components/mindform/cta-section";
+// import { CtaSection } from "@/components/mindform/cta-section";
 import { FocusSection } from "@/components/mindform/focus-section";
 import { FutureSection } from "@/components/mindform/future-section";
 import { HeroSection } from "@/components/mindform/hero-section";
@@ -21,7 +21,7 @@ export default function Home() {
         <FocusSection />
         <ArchitectureSection />
         <FutureSection />
-        <CtaSection />
+        {/* <CtaSection /> */}
       </main>
       <SiteFooter />
     </>
